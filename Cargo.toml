@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos-sovereign"
+version = "0.1.0"
+edition = "2021"
+description = "Sovereign init (PID 1) and service supervisor for SigmaOS"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"

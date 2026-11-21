@@ -1,0 +1,10 @@
+[component]
+name = "SigmaOS-sovereign"
+description = "Sovereign init (PID 1) and service supervisor for SigmaOS"
+
+[contract]
+provides = ["sovereign-init", "pid1-supervisor", "service-supervision"]
+depends_on = []
+
+[maturity]
+level = "experimental"
