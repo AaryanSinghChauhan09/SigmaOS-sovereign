@@ -23,3 +23,6 @@ pub mod sovereign_init_and_supervisor_advancements_v69_pr;
 pub mod sovereign_init_and_supervisor_advancements_v71_pr;
 pub mod sovereign_init_and_supervisor_advancements_v75_pr;
 pub mod sovereign_init_and_supervisor_advancements_v76_pr;
+
+/// Module extracted from the SigmaOS-system monolith.
+pub mod abi;
